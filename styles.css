@@ -13,6 +13,10 @@ header, footer {
     background-color: #1f2937;
     color: #f9faf8;
 }
+
+header {
+    padding-top: 10px;
+}
 .logo {
     margin-top: 7px;
     font-size: 24px;
@@ -44,8 +48,8 @@ header, footer {
 
 #hero {
     justify-content: space-between;
-    padding-top: 100px;
-    padding-bottom: 100px;
+    padding-top: 120px;
+    padding-bottom: 120px;
 }
 
 .title-area {
@@ -73,12 +77,96 @@ header, footer {
 }
 
 .image-area > div {
-    background-color:darkgray;
-    width: 400px;
-    height: 200px;
-    display:flex;
+    background-color: darkgray;
+    width: 500px;
+    height: 250px;
+    display: flex;
     text-align: center;
     justify-content: center;
     align-items: center;
-    margin-right: 150px;
+    margin-right: 50px;
+}
+
+#info {
+    width: 1000px;
+    margin: 0 auto;
+    margin-bottom: 200px;
+}
+
+#info > h2{
+    color: #1f2937;
+    font-size: 36px;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+#info > section  {
+    display: flex;
+    justify-content: space-around;
+}
+
+#info > section > .item {
+    width: 150px;
+    display: block;
+    overflow: hidden;
+}
+#info > section > .item > .item-image{
+    border: #3882f6 5px solid;
+    border-radius: 10px;
+    display: block; 
+    height: 150px;
+}
+#info > section > .item > .item-text {
+    color:#1f2937d2;
+    text-align: center;
+}
+
+#quote {
+    /* width: 1180px; */
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-color: #e5e7eb;
+}
+
+#quote > blockquote {
+    color:#1f2937;
+    font-size: 36px;
+    font-weight:300;
+    width: 800px;
+    margin: 0px auto;
+    font-style: italic;
+}
+#quote > blockquote > cite {
+    display: flex;
+    flex-direction: row-reverse;
+    font-weight: 500;
+}
+#call-to-action {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+#call-to-action > .area {
+    width: 1180px;
+    margin: 0px auto;
+    background: #3882f6;
+    color: white;
+    padding: 25px;
+    border-radius: 15px;
+    display: flex;
+    justify-content: space-between;
+    /* align-content: center; */
+    align-items: center;
+}
+#call-to-action > .area > a {
+    border: #ffffff solid 3px;
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-weight: 900;
+}
+footer {
+    padding: 40px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
